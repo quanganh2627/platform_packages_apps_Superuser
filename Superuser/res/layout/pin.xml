@@ -107,12 +107,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/bottomButtonBar" >
+        android:layout_height="wrap_content" >
 
         <Button
             android:id="@+id/cancel"
-            style="@style/BottomButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -133,7 +131,6 @@
 
         <Button
             android:id="@+id/ok"
-            style="@style/BottomButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
