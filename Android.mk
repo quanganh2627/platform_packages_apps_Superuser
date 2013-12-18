@@ -1,3 +1,4 @@
+ifeq ($(CUSTOM_SUPERUSER),Superuser)
 # Root AOSP source makefile
 # su is built here, and 
 
@@ -68,4 +69,5 @@ $(SUPERUSER_MARKER): $(LOCAL_INSTALLED_MODULE)
 ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
     $(ALL_MODULES.$(LOCAL_MODULE).INSTALLED) $(SUPERUSER_RC) $(SUPERUSER_MARKER)
 
+endif
 endif
